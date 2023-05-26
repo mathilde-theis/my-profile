@@ -1,0 +1,109 @@
+/* Colors and fonts*/
+
+body {
+background-color: #FFFBF6;
+font-family: Inter;
+font-size: 16px;
+color: black;
+line-height: 1.2;
+}
+
+h1, h2, h3 {
+	font-family: Poppins;
+	color: #dab88b;
+	line-height: 1.5;
+	letter-spacing: 1.2;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+
+
+/* Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 20px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-beige {
+  background-color: #dab88b;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-beige:hover {
+  background-color: rgba(218, 184, 139, 0.75);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
